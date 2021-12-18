@@ -1,0 +1,31 @@
+body{
+    color:black;
+    width:100%;
+    font-family:papyrus;
+    background-color:beige;
+}
+
+h2{
+    color:chocolate;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+footer{
+    color:chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+title {
+    display: none;
+  }
+
+  h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+
+  @media (min-width: 1200px) {
+    h1 {
+        color:white;
+      font-size: 2.5rem;
+    }
+}
